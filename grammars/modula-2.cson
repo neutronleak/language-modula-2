@@ -30,12 +30,6 @@ patterns: [
       "0":
         name: "punctuation.definition.string.end.modula-2"
     name: "string.quoted.single.modula-2"
-    patterns: [
-      {
-        match: "\\\\([ntrf\\\\'\"]|([0-7]{3}))"
-        name: "constant.character.escape.modula-2"
-      }
-    ]
   }
   {
     begin: "\""
@@ -47,12 +41,6 @@ patterns: [
       "0":
         name: "punctuation.definition.string.end.modula-2"
     name: "string.quoted.double.modula-2"
-    patterns: [
-      {
-        match: "\\\\([ntrf\\\\'\"]|([0-7]{3}))"
-        name: "constant.character.escape.modula-2"
-      }
-    ]
   }
   {
     begin: "\\(\\*"
